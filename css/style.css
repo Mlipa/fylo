@@ -1,0 +1,79 @@
+:root{
+    /* colors primary */
+    --Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+    /* colors neutral */
+    --Pale-Blue: hsl(243, 100%, 93%);
+    --Grayish-Blue: hsl(229, 7%, 55%);
+    --Dark-Blue: hsl(228, 56%, 26%);
+    --Very-Dark-Blue: hsl(229, 57%, 11%);
+    /* a arcolor */
+    --arcolor: hsl(228, 45%, 44%);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/bg-mobile.png");
+    font-family: 'Raleway', sans-serif;
+}
+
+section{
+    background-color: var(--Dark-Blue);
+}
+
+.head{
+    margin: 40% 24px 16px 24px;
+    padding: 40px;
+    border-radius: 16px 128px 16px 16px;
+}
+
+.logo img{
+    width: 120px;
+    padding: 0 0 16px 0;
+}
+
+.options img{
+    background-color: var(--Very-Dark-Blue);
+    border-radius: 12px;
+}
+
+#image1 {
+    width: 20px;
+    height: 20px;
+    padding: 16px;
+    margin: 2px;
+}
+
+#image2 {
+    width: 20px;
+    height: 20px;
+    padding: 16px;
+    margin: 2px;
+}
+
+#image3 {
+    width: 20px;
+    height: 22px;
+    padding: 16px;
+    margin: 2px;
+}
+
+.space{
+    margin: 24px 24px 16px 24px;
+    padding: 40px;
+    border-radius: 16px;
+    color: var(--Grayish-Blue);
+}
+
+.space p{
+    font-weight: 400;
+}
+
+span{
+    color: var(--Pale-Blue);
+    font-weight: 700;
+}
+
+.foot{
+    display: flex;
+}
