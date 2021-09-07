@@ -13,8 +13,12 @@
 body{
     margin: 0;
     padding: 0;
+    height: 100%;
     background-image: url("../images/bg-mobile.png");
     font-family: 'Raleway', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 section{
@@ -59,21 +63,53 @@ section{
 }
 
 .space{
-    margin: 24px 24px 16px 24px;
-    padding: 40px;
+    margin: 24px 24px 0px 24px;
+    padding: 20px 30px 60px 30px;
     border-radius: 16px;
     color: var(--Grayish-Blue);
 }
 
 .space p{
     font-weight: 400;
+    text-align: center;
 }
 
-span{
-    color: var(--Pale-Blue);
+.space p span{
     font-weight: 700;
+    color: white;
+}
+
+#range{
+    width: 100%;
+}
+
+.control{
+    display: flex;
+    justify-content: space-between;
 }
 
 .foot{
+    background-color: white;
+    display: inline-flex;
+    padding: 0 12px;
+    border-radius: 12px;
+    margin: -60px 10% 125px 22%;
+    align-items: center;
+}
+
+.foot h1{
+    margin: 12px 8px 12px 16px;
+    font-weight: 700;
+    font-size: 48px;
     display: flex;
+    align-items: center;
+}
+
+.foot h4{
+    margin: 0 16px 0 8px;
+    display: flex;
+    align-items: center;
+    color: var(--Grayish-Blue);
+    text-transform: uppercase;
+    font-weight: 700;
 }
